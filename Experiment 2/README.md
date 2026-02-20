@@ -32,28 +32,41 @@ Dataset Source: `sklearn.datasets.load_breast_cancer`
 
 The classifier is based on **Bayes’ Theorem**:
 
-\[
-P(\omega_k | x) = \frac{P(x | \omega_k) P(\omega_k)}{P(x)}
-\]
+$$
+P(\omega_k \mid x) = 
+\frac{P(x \mid \omega_k) \, P(\omega_k)}
+{P(x)}
+$$
 
 Where:
 
-- \(P(\omega_k | x)\) → Posterior probability  
-- \(P(x | \omega_k)\) → Likelihood  
-- \(P(\omega_k)\) → Prior probability  
+- $P(\omega_k \mid x)$ → Posterior probability  
+- $P(x \mid \omega_k)$ → Likelihood  
+- $P(\omega_k)$ → Prior probability  
+- $P(x)$ → Evidence (normalizing constant)
+
+---
 
 ### Gaussian Class-Conditional Density
 
-\[
-P(x | \omega_k) =
+$$
+P(x \mid \omega_k) =
 \frac{1}{\sqrt{2\pi\sigma^2}}
 \exp\left(
 -\frac{(x - \mu)^2}{2\sigma^2}
 \right)
-\]
+$$
+
+---
 
 ### Decision Rule
 
+$$
+\text{Assign } x \text{ to class } 
+\omega_k \text{ if } 
+P(\omega_k \mid x) 
+= \max_j P(\omega_j \mid x)
+$$
 Assign sample \(x\) to the class with the **maximum posterior probability**.
 
 ---
