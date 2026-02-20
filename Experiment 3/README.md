@@ -176,7 +176,7 @@ This experiment is part of a Pattern Recognition lab and focuses on understandin
 ## 👩‍💻 Author
 
 Nisha Singh  
-B.Tech – Pattern Recognition Lab  
+M.Tech (AFI) – Pattern Recognition Lab  
 
 ---
 
