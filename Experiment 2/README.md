@@ -148,6 +148,3 @@ M.tech(AFI) – Pattern Recognition Lab
 ## 📜 License
 
 This project is for academic and educational purposes.
-
-1. Clone this repository
-2. Install required packages:
