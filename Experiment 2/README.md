@@ -116,7 +116,10 @@ No inbuilt classification functions were used.
 
 ## 🚀 How to Run
 
-pip install numpy matplotlib scikit-learn
+1. Clone this repository
+2. Install required packages:
+
+`pip install numpy matplotlib scikit-learn`
 
 
 3. Run the notebook or Python script.
