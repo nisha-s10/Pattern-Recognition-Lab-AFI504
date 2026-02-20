@@ -50,9 +50,13 @@ X ~ N(μ, σ²)
 
 MLE estimates parameters by maximizing the likelihood function:
 
-μ_MLE = (1/N) Σ x_i
+$$
+\hat{\mu}_{MLE} = \frac{1}{N} \sum_{i=1}^{N} x_i
+$$
 
-σ²_MLE = (1/N) Σ (x_i − μ_MLE)²
+$$
+\hat{\sigma}_{MLE}^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \hat{\mu})^2
+$$
 
 MLE depends only on observed data.
 
@@ -68,10 +72,11 @@ Assume prior:
 
 Then the MAP estimate becomes:
 
-μ_MAP = 
-[(N/σ²) * x̄ + (1/τ²) * μ₀] 
---------------------------------
-[(N/σ²) + (1/τ²)]
+$$
+\hat{\mu}_{MAP} =
+\frac{\frac{N}{\sigma^2}\bar{x} + \frac{1}{\tau^2}\mu_0}
+{\frac{N}{\sigma^2} + \frac{1}{\tau^2}}
+$$
 
 MAP shrinks the estimate toward the prior mean.
 
