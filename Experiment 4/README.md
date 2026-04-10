@@ -240,7 +240,8 @@ Binary hypothesis testing using the Likelihood Ratio Test was successfully imple
 
 ---
 
-## Author
+## 👩‍💻 Author
 
-Pattern Recognition Laboratory
-Binary Hypothesis Testing using Likelihood Ratio Test and ROC Analysis
+Nisha Singh  
+M.tech(AFI) – Pattern Recognition Lab 
+
