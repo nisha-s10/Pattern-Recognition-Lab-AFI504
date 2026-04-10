@@ -47,15 +47,7 @@ LDA assumes that:
 
 Discriminant Function:
 
-\[
-g_k(x) =
-x^T \Sigma^{-1} \mu_k
--
-\frac{1}{2}
-\mu_k^T \Sigma^{-1} \mu_k
-+
-\log P(\omega_k)
-\]
+$$ g_k(x) = x^T \Sigma^{-1} \mu_k - \frac{1}{2} \mu_k^T \Sigma^{-1} \mu_k + \log P(\omega_k) $$
 
 ---
 
@@ -69,18 +61,7 @@ QDA assumes:
 
 Discriminant Function:
 
-\[
-g_k(x) =
--\frac{1}{2}
-\log |\Sigma_k|
--
-\frac{1}{2}
-(x-\mu_k)^T
-\Sigma_k^{-1}
-(x-\mu_k)
-+
-\log P(\omega_k)
-\]
+$$ g_k(x) = - \frac{1}{2} \log |\Sigma_k| - \frac{1}{2} (x-\mu_k)^T \Sigma_k^{-1} (x-\mu_k) + \log P(\omega_k) $$
 
 ---
 
