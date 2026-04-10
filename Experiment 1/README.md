@@ -173,7 +173,7 @@ This experiment is part of a **Pattern Recognition Lab** and demonstrates:
 ## 👩‍💻 Author
 
 Nisha Singh  
-M.Tech – Pattern Recognition Lab  
+M.tech(AFI) – Pattern Recognition Lab  
 
 ---
 
